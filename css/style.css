@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px grey;
+}
+header{
+    background-color: #861c1c;
+    padding: 16px; 
+    border: solid 5px  white;
+}
+header img {
+    width: 77%;
+   
+}
+#home #logo{
+    border-radius: 20px;
+    border-color: black;
+}
+nav {
+    background-color: #861c1c;
+    width: 20%;
+    float: left;
+    
+}
+#contenido {
+    padding-bottom: 24px;
+    width: 80%;
+    float: right;
+    
+}
+footer {
+    background-color: #861c1c;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 6px;
+    border: solid 5px white;
+    font-style: oblique;
+    
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    list-style-type: none;
+    color:white;
+    background-color: red;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    border: solid 1px red;
+    font-size: 22px;
+    border-radius: 20%;
+}
+nav li:hover{
+    background-color: white;
+    color: red;
+} 
+#contenido img{
+    width: 500px;
+}
+.rojo{
+    color: rgb(197, 45, 39);
+}
+a{
+    text-decoration: none;
+
+}
+#home{
+     text-align: center;
+}
+.parrafo{
+    text-align: center;
+}
+.etiqueta{
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+#enlaces img{
+    width: 70px;
+    height: 70px;
+    
+}
+.text-derecha {
+   float: right;
+    
+}
+#enlaces a{
+    color: #861c1c;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tablas table{
+    font-size: 22px;
+    margin: 0 auto;
+    width: 60%;
+
+}
+#tablas th{
+    background-color: rgb(63, 9, 9);
+    color: rgb(253, 36, 72);
+}
+#tablas td{
+    background-color:rgb(156, 33, 33) ;
+    color:rgb(255, 255, 255) ;
+    text-align: center;
+}
+
+#cebra tr:nth-child(even) td{
+
+    background-color: rgb(219, 157, 157);
+
+}
+
+#cebra tr:nth-child(odd) td{
+
+    background-color:#976db9;
+}
+#thorario table {
+    width: 90%;
+    margin: 0 auto;
+}
+#thorario td, #thorario th, #thorario table{
+    border: solid 1px black;
+}
+#tablas #thorario .th{
+    background-color: white;
+    color: #008080;
+    text-align: center;
+    font-size: 20px;
+}
+#tablas #thorario .lm{
+    background-color: #01B95C;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#tablas #thorario .prog{
+    background-color: #69D0D0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#tablas #thorario .ing{
+    background-color: #80FF81;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#tablas #thorario .ent{
+    background-color: #8080C0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#tablas #thorario .fol{
+    background-color: #F0F0C8;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#tablas #thorario .sisi{
+    background-color: #ff8002;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#tablas #thorario .bdd{
+    background-color: #64aa96;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#customo li{
+    list-style-type: decimal;
+}
+#customo li li{
+    list-style-type: lower-latin;
+}
+#customo li li li{
+    list-style-type: lower-roman;
+}
+#customd li {
+    list-style-type: disc;
+}
+#customd li li{
+    list-style-image: url(../img/Captura.JPG);
+}
+#customd li li li {
+    list-style-image: none;
+    list-style-type: circle;
+}
+#formbasico fieldset{
+    width: 50%;
+    border-color: red;
+    border-style: dotted;
+}
+#formvariado fieldset{
+    width: 70%;
+    border-color: red;
+    border-style: groove;
+}
+#formbasico input{
+    padding: 15px;
+}
+#multimedia{
+    text-align: center;
+}
+#formmoderno{
+    width: 60%;
+    margin: 0 auto;
+}
+#formmoderno fieldset{
+    border-color: red;
+    border-style: groove;
+}
+#formmoderno legend{
+    color: rgb(117, 25, 25);
+    font: oblique bold 100% cursive
+}
+#formmoderno input{
+    width: 30%;
+    padding: 10px;
+}
+#formmoderno p{
+    font: oblique bold 100% cursive
+}
+#formmoderno #inputcolor{
+    padding: 17px;
+}
